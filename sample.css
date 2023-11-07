@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  font-family: "Titillium Web";
+}
+
+/** background color and box heights **/
+.box1 {
+  background-color: #86509c;
+  height: 596px;
+}
+
+.box2 {
+  background-color: #18c2a5;
+  height: 747px;
+}
+
+.box3 {
+  background-color: #e7f2f8;
+  height: 915px;
+}
+
+.box4 {
+  background-color: #d74681;
+  height: 895px;
+}
+
+.box5 {
+  background-color: #3c549a;
+  height: 819px;
+}
+
+.box6 {
+  background-color: #344b8e;
+  height: 112px;
+}
+/** bg and height end **/
+
+/** for the width of the content **/
+.content {
+  width: 1035px;
+  margin: 0 auto;
+}
+/** content end **/
+
+/** box 1 css **/
+.box1 nav {
+  margin-bottom: 120px;
+}
+
+.box1 section {
+  text-align: center;
+}
+
+.box1 p {
+  margin-bottom: 60px;
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  width: 910px;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.nav a:hover {
+  color:#d1a83a
+}
+
+.box1a a {
+  text-decoration: none;
+  color: white;
+  background-color: #eb7d4b;
+  padding: 25px 85px 25px 85px;
+  border-bottom: 4px solid #c86a40;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.box1a a:hover {
+  background-color:#d56d3e;
+  color:#e7ad93;
+}
+
+.active {
+  background-color: #643a79;
+  border-radius: 5px;
+}
+
+.amar {
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px 18px 10px 18px;
+}
+/** box1 end **/
+
+/** box 2 css **/
+.box2 header {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.box2 h2 {
+  padding-top: 120px;
+  font-size: 40px;
+  margin-bottom: -12px;
+}
+
+#p1 {
+  width: 604px !important;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+/** box2 grid **/
+.box2 section {
+  width: 1032px;
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  column-gap: 96px;
+  color: white;
+  text-align: center;
+}
+
+.box2 section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2 h3 {
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+  font-size: 24px;
+}
+
+.p2 {
+  opacity: 70% !important;
+}
+/** box2 end **/
+
+/** box3 css **/
+.box3 header {
+  margin: 0 auto;
+  color: #3c4761;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.box3 header > h2 {
+  font-size: 40px;
+  margin-bottom: -12px;
+}
+
+.p5 {
+  margin-top: 12px;
+  font-size: 18px;
+  margin-bottom: 75px;
+}
+
+.box3 section {
+  width: 1032px;
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  column-gap: 96px;
+  text-align: center;
+}
+
+.box3 h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.p6 {
+  margin-top: 10px;
+  color: #30bae7;
+  margin-bottom: 15px;
+}
+
+.p7 {
+  color: #3c4761;
+  margin-bottom: 5px;
+}
+
+.hori {
+  margin-top: 12px;
+}
+
+.hori li {
+  float: left;
+}
+
+.hori1 li {
+  margin-left: 10.5px;
+}
+
+.hori2 {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hori2 li {
+  margin-left: 11px;
+}
+
+.hori1 img:hover {
+  border:1px #c3d5e2 solid;
+  border-radius:100%
+}
+
+.hori2 img:hover {
+  border:1px #c3d5e2 solid;
+  border-radius:100%
+}
+/** box3 end **/
+
+/** box4 css **/
+
+.box4 header {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.box4 h2 {
+  font-size: 40px;
+  margin-bottom: -12px;
+}
+
+.box4 section {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  column-gap: 115px;
+}
+
+.i {
+  float: left;
+  margin-right: 55px;
+  margin-bottom: 70px;
+}
+
+.p8 {
+  font-size: 21px;
+  color: white;
+  font-style: italic;
+}
+
+.box4 h3 {
+  font-size: 24px;
+  color: white;
+  margin-top: 30px;
+}
+
+.p9 {
+  font-size: 18px;
+  color: #ffdd99;
+}
+/**box4 end**/
+
+/** box5 css **/
+.box5 header {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.box5 h2 {
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+#p10 {
+  font-size: 18px;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.w1 {
+  width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"] {
+  background-color: #273a71;
+  border-style: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Titillium Web";
+  padding: 16px 255px 16px 25px;
+  margin-bottom: 30px;
+  color:white !important;
+}
+
+textarea {
+  border-radius: 5px;
+  background-color: #273a71;
+  font-family: "Titillium Web";
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 834px;
+  margin-bottom: 63px;
+  border-style: none;
+  color:white !important;
+}
+
+::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.box5a {
+  text-align: center;
+}
+
+.box5a input[type="submit"] {
+  color: white;
+  background-color: #30bae7;
+  box-shadow: none;
+  border-top: #30bae7;
+  border-right: #30bae7;
+  border-left: #30bae7;
+  border-bottom: 3px #299ec5 solid;
+  padding: 15px 75px 15px 75px;
+  font-family: "Titillium Web";
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.box5a input[type="submit"]:hover {
+  background-color: #31aad2;
+}
+
+/**box5 end **/
+
+/**box6 css**/
+.box6 footer {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Titillium Web";
+}
+
+.box6 li {
+  float: left;
+}
+
+.box6 li a {
+  display: block;
+  text-decoration: none;
+}
+
+.box6 a:hover {
+  color:#5762f8;
+}
+
+.amar2 {
+  color: white;
+  margin-right: 55px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+/** box6 end **/
+
+/** for the navigation links on box 1 and others **/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  list-style-type: none;
+  /** border: 1px solid black; **/
+  display: block;
+  margin-top: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+/** blocker **/
+.blocker {
+  clear: both !important;
+}
+
+/**mag flexbox nlng ko sa compt sir kay murag mas sayun siya kaysa float**/
