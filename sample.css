@@ -402,3 +402,9 @@ ul {
 }
 
 /**mag flexbox nlng ko sa compt sir kay murag mas sayun siya kaysa float**/
+
+@media only screen and (min-width:768px) {
+  [class*="col-"] {
+    width:100%;
+  }
+}
